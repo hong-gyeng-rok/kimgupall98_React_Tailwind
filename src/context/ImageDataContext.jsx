@@ -9,7 +9,7 @@ export function ImageDataProvider({ children }) {
 
   useEffect(() => {
     // 컴포넌트가 처음 렌더링될 때 한 번만 public/imageData.json 파일을 fetch 합니다.
-    fetch("/imageData.json")
+    fetch(`${import.meta.env.BASE_URL}imageData.json`)
       .then((response) => response.json())
       .then((data) => setImageData(data)) // fetch 성공 시, 가져온 데이터를 state에 저장합니다.
       .catch((error) => console.error("Error fetching image data:", error));
