@@ -3,124 +3,172 @@
         {
             "id": "img1",
             "title": "결혼기념일2",
-            "url": "24fw/webp/결혼기념일2.webp"
+            "url": "24fw/webp/결혼기념일2.webp",
+            "description": "결혼기념일 축하 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img2",
             "title": "레서판다",
-            "url": "24fw/webp/레서판다.webp"
+            "url": "24fw/webp/레서판다.webp",
+            "description": "레서판다, 코스프레 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img3",
             "title": "레서판다2",
-            "url": "24fw/webp/레서판다2.webp"
+            "url": "24fw/webp/레서판다2.webp",
+            "description": "레서판다 코스프레 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img4",
             "title": "레서판다3",
-            "url": "24fw/webp/레서판다3.webp"
+            "url": "24fw/webp/레서판다3.webp",
+            "description": "레서판다  판다 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img5",
-            "title": "서일페_엽서1",
-            "url": "24fw/webp/서일페_엽서1.webp"
+            "title": "서일페 포스터",
+            "url": "24fw/webp/서일페_엽서1.webp",
+            "description": "서일페 사람 엽서 일러스트",
+            "group": "서일페"
         },
         {
             "id": "img6",
-            "title": "서일페_키링_토끼",
-            "url": "24fw/webp/서일페_키링_토끼.webp"
+            "title": "서일페 Series 1",
+            "url": "24fw/webp/서일페_키링_토끼.webp",
+            "description": "서일페 토끼 일러스트",
+            "group": "서일페"
         },
         {
             "id": "img7",
-            "title": "서일페_키링비니",
-            "url": "24fw/webp/서일페_키링비니.webp"
+            "title": "서일페 Series 2",
+            "url": "24fw/webp/서일페_키링비니.webp",
+            "description": "서일페 비니 일러스트",
+            "group": "서일페"   
         },
         {
             "id": "img8",
-            "title": "서일페_키링양갈래",
-            "url": "24fw/webp/서일페_키링양갈래.webp"
+            "title": "서일페 Series 3",
+            "url": "24fw/webp/서일페_키링양갈래.webp",
+            "description": "서일페 양갈래 일러스트",
+            "group": "서일페"
         },
         {
             "id": "img9",
-            "title": "서일페_y2k",
-            "url": "24fw/webp/서일페_y2k.webp"
+            "title": "서일페 y2k 포스터",
+            "url": "24fw/webp/서일페_y2k.webp",
+            "description": "서일페 y2k 엽서 일러스트",
+            "group": "서일페"
         },
         {
             "id": "img10",
-            "title": "gd",
-            "url": "24fw/webp/gd.webp"
+            "title": "GD 팬아트",
+            "url": "24fw/webp/gd.webp",
+            "description": "GD 팬아트 일러스트",
+            "group": "팬아트"
         }
     ],
     "24ss": [
         {
             "id": "img11",
-            "title": "1703222375920",
-            "url": "24ss/webp/1703222375920.webp"
+            "title": "겨울 맞이 토끼", 
+            "url": "24ss/webp/1703222375920.webp",
+            "description": "겨울을 맞이하는 귀여운 토끼 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img12",
-            "title": "1703254518389",
-            "url": "24ss/webp/1703254518389.webp"
+            "title": "어린왕자와 여우",
+            "url": "24ss/webp/1703254518389.webp",
+            "description": "어린왕자와 여우 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img13",
-            "title": "1703595466263",
-            "url": "24ss/webp/1703595466263.webp"
+            "title": "상어와 악마",
+            "url": "24ss/webp/1703595466263.webp",
+            "description": "상어의 악마와 악마 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img14",
-            "title": "1703763339265",
-            "url": "24ss/webp/1703763339265.webp"
+            "title": "늑대와 고양이",
+            "url": "24ss/webp/1703763339265.webp",
+            "description": "늑대와 고양이의 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img15",
-            "title": "1704453799843",
-            "url": "24ss/webp/1704453799843.webp"
+            "title": "3.1절 기념 포스터",
+            "url": "24ss/webp/1704453799843.webp",
+            "description": "3.1절 기념 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img16",
-            "title": "1704786551105",
-            "url": "24ss/webp/1704786551105.webp"
+            "title": "새로운 시작",
+            "url": "24ss/webp/1704786551105.webp",
+            "description": "새로운 시작을 알리는 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img17",
-            "title": "1705224852786",
-            "url": "24ss/webp/1705224852786.webp"
+            "title": "손흥민 팬아트",
+            "url": "24ss/webp/1705224852786.webp",
+            "description": "손흥민 선수 팬아트 일러스트",
+            "group": "팬아트"
         },
         {
             "id": "img18",
-            "title": "1705306614864",
-            "url": "24ss/webp/1705306614864.webp"
+            "title": "그래 내가 개다.",
+            "url": "24ss/webp/1705306614864.webp",
+            "description": "개가된 사람을 표현한 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img19",
-            "title": "1707032190406",
-            "url": "24ss/webp/1707032190406.webp"
+            "title": "우주인",
+            "url": "24ss/webp/1707032190406.webp",
+            "description": "현재의 나와 미래의 나를 표현한 우주인 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img20",
-            "title": "1707203069849",
-            "url": "24ss/webp/1707203069849.webp"
+            "title": "피식대학 팬아트",
+            "url": "24ss/webp/1707203069849.webp",
+            "description": "피식대학 팬아트 일러스트",
+            "group": "팬아트"
         },
         {
             "id": "img21",
-            "title": "1707203084765",
-            "url": "24ss/webp/1707203084765.webp"
+            "title": "화투 컨샙아트",
+            "url": "24ss/webp/1707203084765.webp",
+            "description": "화투 컨샙 아트",
+            "group": "컨샙아트"
         },
         {
             "id": "img22",
-            "title": "1708256721565",
-            "url": "24ss/webp/1708256721565.webp"
+            "title": "기계같은 사람들 속 나",
+            "url": "24ss/webp/1708256721565.webp",
+            "description": "기계같은 사람들 속 기계가 되기 싫은 나를 표현한 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img23",
-            "title": "1708334901584",
-            "url": "24ss/webp/1708334901584.webp"
+            "title": "SNS 중독",
+            "url": "24ss/webp/1708334901584.webp",
+            "description": "SNS 중독을 표현한 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img24",
-            "title": "1709196876417",
-            "url": "24ss/webp/1709196876417.webp"
+            "title": "무제",
+            "url": "24ss/webp/1709196876417.webp",
+            "description": "무제",
+            "group": "개인작품"
         },
         {
             "id": "img25",
@@ -129,177 +177,248 @@
         },
         {
             "id": "img26",
-            "title": "1710841746545",
-            "url": "24ss/webp/1710841746545.webp"
+            "title": "벚꽃과 그녀",
+            "url": "24ss/webp/1710841746545.webp",
+            "description": "벚꽃과 그녀",
+            "group": "개인작품"
         },
         {
             "id": "img27",
-            "title": "1711009703496",
-            "url": "24ss/webp/1711009703496.webp"
+            "title": "십이지신",
+            "url": "24ss/webp/1711009703496.webp",
+            "description": "십이지신을 캐릭터로 재해석한 일러스트",
+            "group": "컨샙아트"
+
         },
         {
             "id": "img28",
-            "title": "1711784100772",
-            "url": "24ss/webp/1711784100772.webp"
+            "title": "운수 좋은 날",
+            "url": "24ss/webp/1711784100772.webp",
+            "description": "운수 좋은 날에서 영감을 받은 일러스트",
+            "group": "컨샙아트"
         },
         {
             "id": "img29",
-            "title": "2d애니_캐릭터_디자인",
-            "url": "24ss/webp/2d애니_캐릭터_디자인.webp"
+            "title": "밴드부",
+            "url": "24ss/webp/2d애니_캐릭터_디자인.webp",
+            "description": "밴드부 캐릭터 디자인 일러스트",
+            "group": "컨샙아트"
         },
         {
             "id": "img30",
-            "title": "KakaoTalk_20240627_183749790",
-            "url": "24ss/webp/KakaoTalk_20240627_183749790.webp"
+            "title": "바캉스",
+            "url": "24ss/webp/KakaoTalk_20240627_183749790.webp",
+            "description": "바캉스를 즐기는 캐릭터 일러스트",
+            "group": "개인작품"
+
         },
         {
             "id": "img31",
-            "title": "KakaoTalk_20240627_185914243",
-            "url": "24ss/webp/KakaoTalk_20240627_185914243.webp"
+            "title": "부처님 오신 날",
+            "url": "24ss/webp/KakaoTalk_20240627_185914243.webp",
+            "description": "부처님 오신 날을 기념하는 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img32",
-            "title": "KakaoTalk_20240627_190006611_02",
-            "url": "24ss/webp/KakaoTalk_20240627_190006611_02.webp"
+            "title": "마감 지옥",
+            "url": "24ss/webp/KakaoTalk_20240627_190006611_02.webp",
+            "description": "마감 지옥에 빠진 나를 표현한 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img33",
-            "title": "KakaoTalk_20240627_190006611_04",
-            "url": "24ss/webp/KakaoTalk_20240627_190006611_04.webp"
+            "title": "2024 월드컵",
+            "url": "24ss/webp/KakaoTalk_20240627_190006611_04.webp",
+            "description": "2024 월드컵을 기념하는 일러스트",
+            "group": "개인작품"
         }
     ],
     "25ss": [
         {
             "id": "img34",
-            "title": "2025 2",
-            "url": "25ss/webp/2025 2.webp"
+            "title": "2025 새해 기념 포스터",
+            "url": "25ss/webp/2025 2.webp",
+            "description": "2025년 새해를 기념하는 포스터",
+            "group": "개인작품"
         },
         {
             "id": "img35",
-            "title": "개화1",
-            "url": "25ss/webp/개화1.webp"
+            "title": "개화",
+            "url": "25ss/webp/개화1.webp",
+            "description": "봄의 개화를 주제로 한 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img36",
-            "title": "경희대_일러스트png",
-            "url": "25ss/webp/경희대_일러스트png.webp"
+            "title": "경희대와 벚꽃",
+            "url": "25ss/webp/경희대_일러스트png.webp",
+            "description": "경희대학교에서 의뢰를 받아 제작한 벚꽃 일러스트",
+            "group": "의뢰작품"
         },
         {
             "id": "img37",
             "title": "급행열차",
-            "url": "25ss/webp/급행열차.webp"
+            "url": "25ss/webp/급행열차.webp",
+            "description": "급행열차를 주제로 한 일러스트",
+            "group": "개인작품"
+
         },
         {
             "id": "img38",
-            "title": "달려1",
-            "url": "25ss/webp/달려1.webp"
+            "title": "러너",
+            "url": "25ss/webp/달려1.webp",
+            "description": "2025 빈칸 전시회 전시 작품",
+            "group": "빈칸"   
         },
         {
             "id": "img39",
-            "title": "달려2_02",
-            "url": "25ss/webp/달려2_02.webp"
+            "title": "아웃사이더 히터",
+            "url": "25ss/webp/달려2_02.webp",
+            "description": "2025 빈칸 전시회 전시 작품",
+            "group": "빈칸"
         },
         {
             "id": "img40",
-            "title": "달려3_02",
-            "url": "25ss/webp/달려3_02.webp"
+            "title": "Idol",
+            "url": "25ss/webp/달려3_02.webp",
+            "description": "2025 빈칸 전시회 전시 작품",
+            "group": "빈칸"
         },
         {
             "id": "img41",
-            "title": "달려3_그림_티셔츠_뒷면_02",
-            "url": "25ss/webp/달려3_그림_티셔츠_뒷면_02.webp"
+            "title": "Idol 2",
+            "url": "25ss/webp/달려3_그림_티셔츠_뒷면_02.webp",
+            "description": "2025 빈칸 전시회 전시 작품",
+            "group": "빈칸"
         },
         {
             "id": "img42",
-            "title": "메가png",
-            "url": "25ss/webp/메가png.webp"
+            "title": "메가 하이볼",
+            "url": "25ss/webp/메가png.webp",
+            "description": "토리키주쿠 메가 하이볼을 주제로 한 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img43",
             "title": "바보상자스타",
-            "url": "25ss/webp/바보상자스타.webp"
+            "url": "25ss/webp/바보상자스타.webp",
+            "description": "바보상자스타 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img44",
-            "title": "사브리나_카펜터2",
-            "url": "25ss/webp/사브리나_카펜터2.webp"
+            "title": "사브리나_카펜터",
+            "url": "25ss/webp/사브리나_카펜터2.webp",
+            "description": "사브리나 카펜터 팬아트 일러스트",
+            "group": "팬아트"
         },
         {
             "id": "img45",
-            "title": "설날 2025",
-            "url": "25ss/webp/설날 2025.webp"
+            "title": "2025 설날",
+            "url": "25ss/webp/설날 2025.webp",
+            "description": "2025년 설날을 기념하는 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img46",
             "title": "심장",
-            "url": "25ss/webp/심장.webp"
+            "url": "25ss/webp/심장.webp",
+            "description": "심장 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img47",
             "title": "어항소녀",
-            "url": "25ss/webp/어항소녀.webp"
+            "url": "25ss/webp/어항소녀.webp",
+            "description": "어항소녀 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img48",
-            "title": "옛날거2",
-            "url": "25ss/webp/옛날거2.webp"
+            "title": "옛날거",
+            "url": "25ss/webp/옛날거2.webp",
+            "description": "옛날거 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img49",
-            "title": "옛날거3",
-            "url": "25ss/webp/옛날거3.webp"
+            "title": "옛날거 Left",
+            "url": "25ss/webp/옛날거3.webp",
+            "description": "옛날거 분활 Left 버전 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img50",
-            "title": "옛날거4",
-            "url": "25ss/webp/옛날거4.webp"
+            "title": "옛날거 Right",
+            "url": "25ss/webp/옛날거4.webp",
+            "description": "옛날거 분활 Right 버전 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img51",
             "title": "칠가이",
-            "url": "25ss/webp/칠가이.webp"
+            "url": "25ss/webp/칠가이.webp",
+            "description": "칠가이 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img52",
-            "title": "BASEBALL_04",
-            "url": "25ss/webp/BASEBALL_04.webp"
+            "title": "포수",
+            "url": "25ss/webp/BASEBALL_04.webp",
+            "description": "야구 포수 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img53",
-            "title": "BASEBALL_05",
-            "url": "25ss/webp/BASEBALL_05.webp"
+            "title": "투수",
+            "url": "25ss/webp/BASEBALL_05.webp",
+            "description": "야구 투수 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img54",
-            "title": "BASEBALL_06",
-            "url": "25ss/webp/BASEBALL_06.webp"
+            "title": "타자",
+            "url": "25ss/webp/BASEBALL_06.webp",
+            "description": "야구 타자 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img55",
-            "title": "ghost",
-            "url": "25ss/webp/ghost.webp"
+            "title": "유령신부",
+            "url": "25ss/webp/ghost.webp",
+            "description": "유령신부 일러스트",
+            "group": "개인작품"
         },
         {
             "id": "img56",
-            "title": "IAMROCKXTAR2",
-            "url": "25ss/webp/IAMROCKXTAR2.webp"
+            "title": "IAMROCKXTAR",
+            "url": "25ss/webp/IAMROCKXTAR2.webp",
+            "description": "IAMROCKXTAR 일러스트",
+            "group": "개인작품"
         }
     ],
     "banner": [
         {
             "id": "img57",
-            "title": "baseball_banner_img_2",
-            "url": "banner/baseball_banner_img_2.webp"
+            "title": "Banner 포수",
+            "url": "banner/baseball_banner_img_2.webp",
+            "description": "배너 이미지 포수",
+            "group" : "배너"
         },
         {
             "id": "img58",
-            "title": "baseball_banner_img_3",
-            "url": "banner/baseball_banner_img_3.webp"
+            "title": "Banner 투수",
+            "url": "banner/baseball_banner_img_3.webp",
+            "description": "배너 이미지 투수",
+            "group" : "배너"
         },
         {
             "id": "img59",
-            "title": "baseball_banner_img_4",
-            "url": "banner/baseball_banner_img_4.webp"
+            "title": "Banner 타자",
+            "url": "banner/baseball_banner_img_4.webp",
+            "description": "배너 이미지 타자",
+            "group" : "배너"
         }
     ]
 }
