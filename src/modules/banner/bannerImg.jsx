@@ -41,7 +41,7 @@ export default function BannerImg() {
       {bannerData && bannerData.length > 0 ? (
         <div className="rounded-lg p-2 shadow-xl/50 ">
           <img
-            src={bannerData[count].urlConverted}
+            src={bannerData[count].url}
             alt={bannerData[count].title}
             className=" w-xs rounded object-cover"
             loading="lazy"
