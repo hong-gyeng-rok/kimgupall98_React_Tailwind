@@ -476,5 +476,14 @@
       "group": "배너",
       "urlConverted": "banner/baseball_banner_img_4_converted.webp"
     }
+  ],
+  "eventImg": [
+    {
+      "id": "eventImg1",
+      "title": "Instagram Link",
+      "url": "eventImg/instagramLink.png",
+      "description": "작가 인스타그램 QR 링크",
+      "group": "eventImg"
+    }
   ]
 }
