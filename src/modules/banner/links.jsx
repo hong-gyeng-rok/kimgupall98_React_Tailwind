@@ -62,7 +62,7 @@ const allLinks = [
 ];
 
 function Links() {
-  // 'styleVariant'에 따라 링크들을 두 그룹으로 나눕니다.
+  // 'styleVariant'에 따라 링크들을 두 그룹으로 나눔
   const defaultStyleLinks = allLinks.filter(
     (link) => link.styleVariant === "default",
   );
@@ -89,10 +89,10 @@ function Links() {
 
 function StyledLink({ link }) {
   const isDefualtStyle = link.styleVariant === "default";
-  const style = isDefualtStyle ? { backgroundColor: link.bgColor } : {};
+  const style = isDefualtStyle ? { backgroundColor: link.bgColor } : {}; //dafaultStyle 링크의 경우 독립된 backgroundColor 필요해 변수로 할당
   const className = isDefualtStyle
-    ? "block w-xs h-auto p-2 rounded-md shadow-xl/40 text-center"
-    : "text-stone-950 p-1 px-4 shadow-xl/40 rounded ";
+    ? "block w-xs h-auto p-2 rounded-md shadow-xl/40 text-center" //bar 스타일 디자인 (dafaultStyle 링크 디자인)
+    : "text-stone-950 p-1 px-4 shadow-xl/40 rounded "; //button 스타일 디자인 (subtleStyle 링크 디자인)
 
   if (link.path === "url") {
     return (

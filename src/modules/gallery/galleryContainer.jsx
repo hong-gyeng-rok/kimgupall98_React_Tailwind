@@ -4,8 +4,9 @@ import GalleryContents from "./galleryContents";
 import GalleryNavBtn from "./galleryNavBtn";
 import SeasonDropdown from "./seasonDropdown";
 
+//isShow를 통해 home 페이지에선 불필요한 navigation 컴포넌트 랜더링 안하도록 설정 (초기값은 보여지도록 * gallery 페이지 진입시 navigation이 보여지도록하기 위함)
 export default function GalleryContainer({ isShow = true }) {
-  const [currentSeason, setCurrentSeason] = useState("25fw");
+  const [currentSeason, setCurrentSeason] = useState("25fw"); //최신 자료를 보여주기 위해 기본 값을 25fw로 설정
   const [filteredImages, setFilteredImages] = useState([]);
   const allimageData = useImageData();
 
@@ -13,10 +14,11 @@ export default function GalleryContainer({ isShow = true }) {
     if (allimageData && allimageData[currentSeason]) {
       setFilteredImages(allimageData[currentSeason]);
     } else {
-      setFilteredImages([]);
+      setFilteredImages([]); // 에러처리 현재 선택된 시즌이 없다면 빈 배열 반환
     }
   }, [currentSeason, allimageData]);
 
+  // SeasonDropdown 버튼 클릭시 25ss, 25fw와 같은 값을 반환하도록함, 이 값을 currentSeason에 할당함
   const handleSeasonChange = (seasonValue) => {
     setCurrentSeason(seasonValue);
   };

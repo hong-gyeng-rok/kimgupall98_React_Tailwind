@@ -1,3 +1,5 @@
+//외부 링크로 연결되는 버튼 컴포넌트
+
 import React from "react";
 
 export default function ExternalLink({ href, children, className, style }) {

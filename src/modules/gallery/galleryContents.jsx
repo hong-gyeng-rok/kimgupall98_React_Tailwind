@@ -13,7 +13,7 @@ export default function GalleryContents({ filteredImages }) {
   return (
     <div>
       <div className=" max-h-230 overflow-y-auto ">
-        {filteredImages && filteredImages.length > 0 ? (
+        {filteredImages && filteredImages.length > 0 ? ( //filteredImages라는 값은 GalleryContainer 함수에서 받아옴, 이를 통해 특정 시즌 이미지만 출력되도록함
           <Masonry
             breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid flex gap-4" // flex 컨테이너 클래스 이미지 열 갭
