@@ -2,8 +2,14 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import { InternalLinkProps } from "../../types/internalLink";
 
-export default function InternalLink({ to, children, className, style }) {
+export default function InternalLink({
+  to, //string
+  children, //ReactNode
+  className, // string?
+  style, //CSSProperties
+}: InternalLinkProps) {
   return (
     <Link
       to={to}

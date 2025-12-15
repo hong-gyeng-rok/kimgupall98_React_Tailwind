@@ -22,7 +22,7 @@ const navList = [
 
 export default function GalleryNavBtn() {
   return (
-    <div className=" flex flex-row w-xs justify-around min-[350px]:hidden sm:hidden md:flex ">
+    <div className=" flex flex-row justify-around">
       {navList.map((nav) =>
         nav.type === "style" ? (
           <button
@@ -35,7 +35,9 @@ export default function GalleryNavBtn() {
           <Link
             key={nav.id}
             to={nav.url}
-            className=" bg-stone-200 text-stone-950 text-center p-1 w-xs text-xl shadow-xl/40 rounded hover:bg-zinc-400 hover:ring-2 hover:ring-blue-400"
+            className=" bg-stone-200 text-stone-950 text-center p-1 px-4 text-xl shadow-xl/40 rounded 
+          hover:bg-zinc-400 hover:ring-2 hover:ring-blue-400 min-[350px]:w-fit md:w-xs
+          "
           >
             {nav.title}
           </Link>

@@ -49,7 +49,8 @@ export default function SeasonDropdown({ onSelectSeason }) {
 
   return (
     <div
-      className="relative inline-block text-left w-xs p-2 bg-white text-black shadow-xl/50 rounded"
+      className="relative inline-block text-left min-[350px]:w-fit
+            md:w-xs p-1 px-4 bg-white text-black shadow-xl/50 rounded"
       ref={dropDownRef}
     >
       <button

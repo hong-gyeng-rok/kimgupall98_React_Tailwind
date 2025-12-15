@@ -1,5 +1,5 @@
-import { useImageData } from "../../context/ImageDataContext";
 import { useState, useEffect } from "react";
+import { useImageData } from "../../context/ImageDataContext";
 
 export default function BannerImg() {
   const allImageData = useImageData();
@@ -21,8 +21,7 @@ export default function BannerImg() {
       3000,
     );
 
-    // 컴포넌트가 언마운트되거나, 의존성(count, allImageData)이 변경되기 전에
-    // 이전 타이머를 정리
+    // 컴포넌트가 언마운트되거나, 의존성(count, allImageData)이 변경되기 전에이전 타이머를 정리
     return () => clearTimeout(timer);
   }, [count, allImageData]);
 

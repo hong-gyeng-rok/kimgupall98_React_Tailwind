@@ -6,5 +6,11 @@ export default defineConfig(() => {
   return {
     plugins: [react()],
     base: "/",
+    test: {
+      globals: true,
+      environment: "jsdom",
+      setupFiles: "src/test/setup.js",
+      css: true,
+    },
   };
 });
