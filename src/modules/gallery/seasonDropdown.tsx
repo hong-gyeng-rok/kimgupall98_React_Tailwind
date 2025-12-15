@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
+import { season, SeasonDropdownProps } from "../../types/seasonDropdown";
 
-const seasons = [
+const seasons: season[] = [
   {
     value: "25fw",
     label: "25 Fall & Winter",
@@ -19,14 +20,19 @@ const seasons = [
   },
 ];
 
-export default function SeasonDropdown({ onSelectSeason }) {
+export default function SeasonDropdown({
+  onSelectSeason,
+}: SeasonDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedSeason, setSelectedSeason] = useState(seasons[0]);
-  const dropDownRef = useRef(null);
+  const [selectedSeason, setSelectedSeason] = useState<season>(seasons[0]);
+  const dropDownRef = useRef<HTMLDivElement>(null);
   // Ref 기능을 활용하여 버튼 밖이나 버튼 클릭시 자동으로 dropDown이 닫히도록함
   useEffect(() => {
-    function handleClickOutSide(event) {
-      if (dropDownRef.current && !dropDownRef.current.contains(event.target)) {
+    function handleClickOutSide(event: MouseEvent) {
+      if (
+        dropDownRef.current &&
+        !dropDownRef.current.contains(event.target as Node)
+      ) {
         setIsOpen(false);
       }
     }
@@ -41,7 +47,7 @@ export default function SeasonDropdown({ onSelectSeason }) {
   };
   //dropDown 버튼을 클릭했을 때, 해당 버튼의 value 값을 반환함(onSelectSeason로 props 전달)
   //이를 통해 시즌이 선택되면 props 전달을 통해 하위 컴포넌트나 상위 컴포넌트에 props 전달 가능
-  const handleSelect = (season) => {
+  const handleSelect = (season: season) => {
     setSelectedSeason(season);
     onSelectSeason(season.value);
     setIsOpen(false);

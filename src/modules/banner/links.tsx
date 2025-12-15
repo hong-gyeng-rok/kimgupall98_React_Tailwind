@@ -1,11 +1,12 @@
 import React from "react";
 import ExternalLink from "../banner/externalLink";
 import InternalLink from "../banner/internalLink";
+import { Link } from "../../types/links";
 
 const allLinks = [
   // --- 'default' 스타일을 갖는 링크들 ---
   {
-    id: "instagram",
+    id: 1,
     title: "Instagram",
     bgColor: "#0025D9",
     url: "https://www.instagram.com/kimgupall_98",
@@ -13,7 +14,7 @@ const allLinks = [
     path: "url",
   },
   // {
-  //   id: "market",
+  //   id: 2,
   //   title: "Market",
   //   bgColor: "#166EFF",
   //   url: "https://naver.me/53lmTjmx",
@@ -21,7 +22,7 @@ const allLinks = [
   //   path: "url",
   // },
   {
-    id: "noteFolio",
+    id: 3,
     title: "NoteFolio",
     bgColor: "#3A84FF",
     url: "https://notefolio.net/kimgupall98",
@@ -29,7 +30,7 @@ const allLinks = [
     path: "url",
   },
   {
-    id: "pinterest",
+    id: 4,
     title: "Pinterest",
     bgColor: "#98BEFF",
     url: "https://kr.pinterest.com/kimgupall98/",
@@ -39,21 +40,21 @@ const allLinks = [
 
   // --- 'subtle' 스타일을 갖는 링크들 ---
   {
-    id: "Subs",
+    id: 5,
     title: "Subs",
     url: "http://pf.kakao.com/_QGyxnn",
     styleVariant: "subtle", // 'Subs'는 외부 링크이지만, 디자인은 'subtle'
     path: "url",
   },
   {
-    id: "Gallery",
+    id: 6,
     title: "Gallery",
     url: "gallery", // 내부 페이지 경로
     styleVariant: "subtle",
     path: "path",
   },
   // {
-  //   id: "About",
+  //   id: 7,
   //   title: "About",
   //   url: "#", // 내부 페이지 경로
   //   styleVariant: "subtle",
@@ -87,7 +88,7 @@ function Links() {
   );
 }
 
-function StyledLink({ link }) {
+function StyledLink({ link }: { link: Link }) {
   const isDefualtStyle = link.styleVariant === "default";
   const style = isDefualtStyle ? { backgroundColor: link.bgColor } : {}; //dafaultStyle 링크의 경우 독립된 backgroundColor 필요해 변수로 할당
   const className = isDefualtStyle
@@ -101,7 +102,6 @@ function StyledLink({ link }) {
       </ExternalLink>
     );
   }
-
   return (
     <InternalLink to={link.url} style={style} className={className}>
       {link.title}

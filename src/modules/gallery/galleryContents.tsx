@@ -1,19 +1,22 @@
 import React, { useState } from "react";
 import Masonry from "react-masonry-css"; // react-masonry-css에서 임포트
 import Modal from "react-modal";
+import { AllImageData, ImageItems } from "../../types/imageData";
 
 Modal.setAppElement("#root"); // 또는 앱의 최상위 DOM ID
-export default function GalleryContents({ filteredImages }) {
+export default function GalleryContents({ filteredImages }: AllImageData) {
   // 반응형 컬럼 개수 설정
   const breakpointColumnsObj = {
     default: 4, // 기본값 (가장 큰 화면)
-    1280: 4, // 1280px 이하
+    1280: 3, // 1280px 이하
     1024: 2, // 1024px 이하
     800: 1, // 768px 이하
     640: 1, // 640px 이하
   };
 
-  const [selectedImage, setSelectedImage] = useState(null);
+  console.log(filteredImages);
+
+  const [selectedImage, setSelectedImage] = useState<ImageItems | null>(null);
 
   return (
     <div>
@@ -24,7 +27,7 @@ export default function GalleryContents({ filteredImages }) {
             className="my-masonry-grid flex gap-4" // flex 컨테이너 클래스 이미지 열 갭
             columnClassName="my-masonry-grid_column gap-4 bg-clip-padding " // 각 컬럼에 적용될 클래스 (gap-4는 gutter 역할)
           >
-            {filteredImages.map((image) => (
+            {filteredImages.map((image: ImageItems) => (
               <div
                 key={image.id}
                 className=" rounded shadow-xl mb-4"

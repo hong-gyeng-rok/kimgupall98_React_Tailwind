@@ -10,7 +10,7 @@ export interface ImageItems {
 }
 
 export interface AllImageData {
-  [key: string]: ImageItems[];
+  [key: string | number]: ImageItems[];
 }
 
 export interface ImageDataProviderProps {
