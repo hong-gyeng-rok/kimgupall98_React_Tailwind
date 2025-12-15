@@ -7,7 +7,7 @@ export default function GalleryContents({ filteredImages }) {
   // 반응형 컬럼 개수 설정
   const breakpointColumnsObj = {
     default: 4, // 기본값 (가장 큰 화면)
-    1280: 4, // 1280px 이하
+    1280: 3, // 1280px 이하
     1024: 2, // 1024px 이하
     800: 1, // 768px 이하
     640: 1, // 640px 이하
