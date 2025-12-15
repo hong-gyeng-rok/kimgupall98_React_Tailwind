@@ -1,7 +1,7 @@
 import React from "react";
 import ExternalLink from "../banner/externalLink";
 import InternalLink from "../banner/internalLink";
-import { Link, test } from "../../types/links";
+import { Link } from "../../types/links";
 
 const allLinks = [
   // --- 'default' 스타일을 갖는 링크들 ---
