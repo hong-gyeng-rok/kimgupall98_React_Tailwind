@@ -70,7 +70,7 @@ function Links() {
   const subtleStyleLinks = allLinks.filter(
     (link) => link.styleVariant === "subtle",
   );
-  console.log(defaultStyleLinks);
+
   return (
     <article className="flex flex-col gap-y-6">
       {/* 'default' 스타일 링크 렌더링 */}

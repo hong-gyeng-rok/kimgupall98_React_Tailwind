@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const navList = [
+import { NavList } from "../../types/galleryNavBtn";
+const navList: NavList[] = [
   // {
-  //   id: "grid",
+  //   id: 1,
   //   title: "Grid" /** Change to gallary style grid */,
   //   type: "style",
   // },
   // {
-  //   id: "slider",
+  //   id: 2,
   //   title: "Slider",
   //   type: "style",
   // },
   {
-    id: "exit",
+    id: 3,
     title: "Exit",
     url: "/",
     type: "url",
